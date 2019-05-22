@@ -6,8 +6,8 @@
 import argparse
 import numpy as np
 
-import encoder
-from load_dataset import load_dataset
+from gpt_finetune import encoder
+from gpt_finetune.load_dataset import load_dataset
 
 parser = argparse.ArgumentParser(
     description='Pre-encode text files into tokenized training set.',

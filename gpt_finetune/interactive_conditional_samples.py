@@ -6,7 +6,7 @@ import os
 import numpy as np
 import tensorflow as tf
 
-import model, sample, encoder
+from gpt_finetune import model, sample, encoder
 
 def interact_model(
     model_name='117M',

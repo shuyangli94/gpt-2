@@ -12,6 +12,7 @@ import time
 
 import horovod.tensorflow as hvd
 
+from gpt_finetune import model, sample, encoder, memory_saving_gradients
 import model, sample, encoder
 from load_dataset import load_dataset, Sampler
 

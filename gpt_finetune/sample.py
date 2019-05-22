@@ -1,6 +1,6 @@
 import tensorflow as tf
 
-import model
+from gpt_finetune import model
 
 def top_k_logits(logits, k):
     if k == 0:
